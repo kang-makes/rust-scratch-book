@@ -1,0 +1,13 @@
+[package]
+name = "rust-scratch-book"
+version = "0.0.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_yaml = "0.9"
+
+[workspace]
+members = [
+    "snippets/serde-unstructured-yaml"
+]
