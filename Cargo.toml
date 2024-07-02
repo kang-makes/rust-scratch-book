@@ -9,5 +9,7 @@ serde_yaml = "0.9"
 
 [workspace]
 members = [
-    "snippets/serde-unstructured-yaml"
+    "snippets/serde-unstructured-yaml",
+    "snippets/yaml-web-server",
+    "snippets/middle-writer",
 ]
