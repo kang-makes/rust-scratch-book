@@ -1089,6 +1089,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "tracing-with-fields"
+version = "0.0.0"
+dependencies = [
+ "tracing",
+ "tracing-subscriber",
+]
+
+[[package]]
 name = "unicode-ident"
 version = "1.0.12"
 source = "registry+https://github.com/rust-lang/crates.io-index"

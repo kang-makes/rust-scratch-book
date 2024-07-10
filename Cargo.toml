@@ -12,4 +12,5 @@ members = [
     "snippets/serde-unstructured-yaml",
     "snippets/yaml-web-server",
     "snippets/middle-writer",
+    "snippets/tracing-with-fields",
 ]
